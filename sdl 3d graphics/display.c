@@ -20,7 +20,7 @@ bool initialize_window(void) {
     SDL_DisplayMode display_mode;
     SDL_GetCurrentDisplayMode(0, &display_mode);
     //window_width = display_mode.w;
-   // window_height = display_mode.h;
+    //window_height = display_mode.h;
 
     // Create a SDL Window
     window = SDL_CreateWindow(
